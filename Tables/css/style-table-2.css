@@ -1,0 +1,50 @@
+.table_yellow {
+  background: #ffffff;
+  border-collapse: collapse;
+  text-align: left;
+}
+.table_yellow th {
+  border: 1px solid #2c2802;	
+  background: linear-gradient(#c2b610, #5c5c29);
+  color: white;
+  padding: 10px 15px;
+  position: relative;
+ }
+.table_yellow th:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 25%;
+  height: 25%;
+  width: 100%;
+  background: linear-gradient(rgba(7, 42, 240, 0), rgba(13, 74, 240, 0.08));
+}
+.table_yellow tr:nth-child(odd) {
+  background: linear-gradient(rgba(167, 165, 68, 0.836), rgba(13, 74, 240, 0.08));
+}
+.table_yellow td {
+  border: 1px solid #2c2802;
+  padding: 10px 15px;
+  position: relative;
+  transition: all 0.5s ease;
+}
+.table_yellow tbody:hover td {
+  color: transparent;
+  text-shadow: 0 0 5px #472d0a;
+}
+.table_yellow tbody:hover tr:hover td {
+  color: #3d3408;
+  text-shadow: none;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 22px;;
+}
+caption {
+  text-align:right;  
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+}
+
