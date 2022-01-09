@@ -1,0 +1,58 @@
+body {
+  width:100%;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+table {
+  border-collapse: collapse;
+}
+td, th {border-bottom: 2px solid white;
+padding:10px;}
+.row-H {
+  border-top: 2px solid white;
+  background: linear-gradient(270deg,#019ba95b, #019ba9);
+  font-style: italic;
+  color:white;
+  text-align: left;
+  vertical-align: middle;
+}
+.row-1 {
+  background: linear-gradient(50deg,#019ba988, #f8fdfc);
+}
+.row-2 {
+  background: linear-gradient(50deg, #f8fdfc,#019ba988);
+}
+.col-2 {
+  text-align: center;
+  padding-left:10px;
+  padding-right:10px;
+}
+.col-3 {
+  text-align: right;
+  padding-left:10px;
+}
+caption {
+  padding-bottom: 10px;
+  color:#019ba9;
+  font-size: 22px;
+  font-weight:900;
+  text-shadow: 1px 1px 1px rgb(19, 18, 18);
+  text-align: right;
+  font-style: italic;
+}
+th:first-child {
+  border-top-left-radius: 10px;
+}
+th:last-child {
+  border-top-right-radius: 10px;
+  border-right: none;
+}
+tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+
+
